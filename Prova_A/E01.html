@@ -9,11 +9,16 @@
     */
 
     //Entrada
+    const num = Number(prompt(`Informe um numero inteiro:`).trim());
+    let soma = 0;
 
 
     //Processamento
-
+    for (const i = 1; i <= num; i++) {
+        soma = soma + i
+        alert(`Se o usuario informar o numero ${num}, o resultado será ${soma}.`);
+    }
 
     //Saída
-    
+
 </script>
